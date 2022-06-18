@@ -1,0 +1,215 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50ad2d721b5da424096e85539f9ff262, type: 3}
+  m_Name: ResourceRuleEditor
+  m_EditorClassIdentifier: 
+  rules:
+  - valid: 1
+    name: Configs
+    variant: 
+    fileSystem: GameData
+    groups: Base
+    assetsDirectoryPath: Assets/GameMain/Configs
+    loadType: 0
+    packed: 1
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: DataTables
+    variant: 
+    fileSystem: GameData
+    groups: Base
+    assetsDirectoryPath: Assets/GameMain/DataTables
+    loadType: 0
+    packed: 1
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: Entities
+    variant: 
+    fileSystem: Resources
+    groups: 
+    assetsDirectoryPath: Assets/GameMain/Entities
+    loadType: 0
+    packed: 1
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: Localization/Dictionaries
+    variant: zh-cn
+    fileSystem: UI
+    groups: Base
+    assetsDirectoryPath: Assets/GameMain/Localization/ChineseSimplified
+    loadType: 0
+    packed: 1
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: Localization/Dictionaries
+    variant: zh-tw
+    fileSystem: UI
+    groups: Base
+    assetsDirectoryPath: Assets/GameMain/Localization/ChineseTraditional
+    loadType: 0
+    packed: 1
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: Localization/Dictionaries
+    variant: en-us
+    fileSystem: UI
+    groups: Base
+    assetsDirectoryPath: Assets/GameMain/Localization/English
+    loadType: 0
+    packed: 1
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: Localization/Dictionaries
+    variant: ko-kr
+    fileSystem: UI
+    groups: Base
+    assetsDirectoryPath: Assets/GameMain/Localization/Korean
+    loadType: 0
+    packed: 1
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: Materials
+    variant: 
+    fileSystem: Resources
+    groups: 
+    assetsDirectoryPath: Assets/GameMain/Materials
+    loadType: 0
+    packed: 1
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: Meshes
+    variant: 
+    fileSystem: Resources
+    groups: 
+    assetsDirectoryPath: Assets/GameMain/Meshes
+    loadType: 0
+    packed: 1
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: Music
+    variant: 
+    fileSystem: Resources
+    groups: 
+    assetsDirectoryPath: Assets/GameMain/Music
+    loadType: 0
+    packed: 1
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: Scenes
+    variant: 
+    fileSystem: Resources
+    groups: 
+    assetsDirectoryPath: Assets/GameMain/Scenes
+    loadType: 0
+    packed: 1
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: Sounds
+    variant: 
+    fileSystem: Resources
+    groups: 
+    assetsDirectoryPath: Assets/GameMain/Sounds
+    loadType: 0
+    packed: 1
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: Textures
+    variant: 
+    fileSystem: Resources
+    groups: 
+    assetsDirectoryPath: Assets/GameMain/Textures
+    loadType: 0
+    packed: 1
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: UIForms
+    variant: 
+    fileSystem: UI
+    groups: 
+    assetsDirectoryPath: Assets/GameMain/UI/UIForms
+    loadType: 0
+    packed: 1
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: UISounds
+    variant: 
+    fileSystem: UI
+    groups: 
+    assetsDirectoryPath: Assets/GameMain/UI/UISounds
+    loadType: 0
+    packed: 1
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: UISprites
+    variant: 
+    fileSystem: UI
+    groups: 
+    assetsDirectoryPath: Assets/GameMain/UI/UISprites
+    loadType: 0
+    packed: 1
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: UIItems
+    variant: 
+    fileSystem: UI
+    groups: 
+    assetsDirectoryPath: Assets/GameMain/UI/UIItems
+    loadType: 0
+    packed: 1
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: Fonts
+    variant: 
+    fileSystem: UI
+    groups: Base
+    assetsDirectoryPath: Assets/GameMain/Fonts
+    loadType: 0
+    packed: 1
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: Hotfix
+    variant: 
+    fileSystem: Hotfix
+    groups: 
+    assetsDirectoryPath: Assets/GameMain/HotFix
+    loadType: 0
+    packed: 1
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: MetadataAssemblys
+    variant: 
+    fileSystem: MetadataAssemblys
+    groups: 
+    assetsDirectoryPath: Assets/GameMain/MetadataAssemblys
+    loadType: 0
+    packed: 1
+    filterType: 0
+    searchPatterns: '*.*'
