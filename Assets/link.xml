@@ -1,6 +1,6 @@
 <linker>
-    <assembly fullname="Unity" preserve="all"/>
-    <assembly fullname="Unity.Hotfix" preserve="all"/>
+    <assembly fullname="Game" preserve="all"/>
+    <assembly fullname="Game.Hotfix" preserve="all"/>
     <assembly fullname="Unity.NGUI" preserve="all"/>
     <assembly fullname="Unity.ThirdParty" preserve="all"/>
     <assembly fullname="System" preserve="all"/>
