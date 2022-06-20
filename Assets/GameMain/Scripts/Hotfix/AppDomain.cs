@@ -16,12 +16,13 @@ namespace Game.Hotfix
             IFsmManager fsmManager = GameFrameworkEntry.GetModule<IFsmManager>();
             procedureManager.Initialize(fsmManager, new ProcedureBase[]
             {
+                new ProcedureHotfixLaunch(),
                 new ProcedureMain(),
                 new ProcedureMenu(),
                 new ProcedureChangeScene(),
             });
             
-            procedureManager.StartProcedure<ProcedureMenu>();
+            procedureManager.StartProcedure<ProcedureHotfixLaunch>();
         }
     }
 }

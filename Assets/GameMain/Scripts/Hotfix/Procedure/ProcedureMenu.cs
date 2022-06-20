@@ -2,6 +2,7 @@
 using GameFramework.Fsm;
 using GameFramework.Procedure;
 using UnityGameFramework.Runtime;
+using UnityEngine;
 
 namespace Game.Hotfix
 {
@@ -24,6 +25,13 @@ namespace Game.Hotfix
             GameEntry.Event.Subscribe(OpenUIFormSuccessEventArgs.EventId, OnOpenUIFormSuccess);
 
             m_StartGame = false;
+            
+            GameEntry.Entity.ShowEntity(typeof(TestEntity),"Default",100, new TestEntityData(GameEntry.Entity.GenerateSerialId(),10000)
+            {
+                Position = Vector3.zero,
+                Rotation = Quaternion.identity
+            });
+            
             GameEntry.UI.OpenUIForm(UIFormId.MenuForm, this);
         }
 
