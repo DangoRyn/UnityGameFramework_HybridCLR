@@ -2,6 +2,7 @@ using GameFramework.DataTable;
 using GameFramework.Event;
 using GameFramework.Fsm;
 using GameFramework.Procedure;
+using UnityEngine;
 using UnityGameFramework.Runtime;
 
 namespace Game.Hotfix
@@ -33,8 +34,7 @@ namespace Game.Hotfix
             if (!m_IsInitSuccessful)
                 return;
             
-            procedureOwner.SetData<VarInt32>("NextSceneId", GameEntry.Config.GetInt("Scene.Menu"));
-            ChangeState<ProcedureChangeScene>(procedureOwner);
+            ChangeState<ProcedurePreload>(procedureOwner);
         }
 
         public override bool UseNativeDialog { get; }

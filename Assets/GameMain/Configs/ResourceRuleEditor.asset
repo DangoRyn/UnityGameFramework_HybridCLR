@@ -213,3 +213,13 @@ MonoBehaviour:
     packed: 1
     filterType: 0
     searchPatterns: '*.*'
+  - valid: 1
+    name: LubanTables
+    variant: 
+    fileSystem: LubanTables
+    groups: Base
+    assetsDirectoryPath: Assets/GameMain/LubanTables
+    loadType: 0
+    packed: 1
+    filterType: 0
+    searchPatterns: '*.*'

@@ -1,8 +1,8 @@
 <root>
 
-	<topmodule name="cfg"/>
+	<topmodule name="Game.Hotfix.Cfg"/>
     
-    <option name="editor.topmodule" value="editor.cfg"/>
+    <option name="editor.topmodule" value="Game.Cfg"/>
 
 	<patch name="cn"/>
 	<patch name="tw"/>

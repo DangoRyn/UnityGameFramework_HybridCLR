@@ -1,0 +1,1 @@
+运行luban先安装[dotnet sdk 6.0](https://dotnet.microsoft.com/zh-cn/download/dotnet/6.0)

@@ -1,0 +1,16 @@
+[
+  {
+    "Id": 1,
+    "AssetName": "DialogForm",
+    "UIGroupName": "Top",
+    "AllowMultiInstance": true,
+    "PauseCoveredUIForm": true
+  },
+  {
+    "Id": 100,
+    "AssetName": "MenuForm",
+    "UIGroupName": "Default",
+    "AllowMultiInstance": false,
+    "PauseCoveredUIForm": true
+  }
+]

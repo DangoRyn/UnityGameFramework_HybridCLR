@@ -11,6 +11,7 @@
       <Resource Name="Localization/Dictionaries" Variant="ko-kr" FileSystem="UI" LoadType="0" Packed="True" ResourceGroups="Base" />
       <Resource Name="Localization/Dictionaries" Variant="zh-cn" FileSystem="UI" LoadType="0" Packed="True" ResourceGroups="Base" />
       <Resource Name="Localization/Dictionaries" Variant="zh-tw" FileSystem="UI" LoadType="0" Packed="True" ResourceGroups="Base" />
+      <Resource Name="LubanTables" FileSystem="LubanTables" LoadType="0" Packed="True" ResourceGroups="Base" />
       <Resource Name="Materials" FileSystem="Resources" LoadType="0" Packed="True" />
       <Resource Name="Meshes" FileSystem="Resources" LoadType="0" Packed="True" />
       <Resource Name="MetadataAssemblys" FileSystem="MetadataAssemblys" LoadType="0" Packed="True" />
@@ -25,6 +26,7 @@
     </Resources>
     <Assets>
       <Asset Guid="0179316b5fc7c2946a67c5877c02fc30" ResourceName="UISprites" />
+      <Asset Guid="02c88563bd5450745ae27bc377dfd221" ResourceName="LubanTables" />
       <Asset Guid="04d7dde7615d71b4db1a0c8d67a62e95" ResourceName="UIForms" />
       <Asset Guid="093f8873cfe371d41b854ed9fb6bff69" ResourceName="Music" />
       <Asset Guid="09966b19e546cc94aa84d0743cb2a83d" ResourceName="UIForms" />
@@ -33,6 +35,7 @@
       <Asset Guid="14869ac0d4433f04db1704e39d03412e" ResourceName="Localization/Dictionaries" ResourceVariant="en-us" />
       <Asset Guid="156d241f796508c4da4fc354a7fbf5a8" ResourceName="UISprites" />
       <Asset Guid="1f0cc6e24fe9fa24bb7fcdf6e8f50df6" ResourceName="MetadataAssemblys" />
+      <Asset Guid="2243f9a0154082e4385568dd2f1fb2a0" ResourceName="LubanTables" />
       <Asset Guid="236433a27ce40a7429b87d14d8fa3035" ResourceName="UISprites" />
       <Asset Guid="237cf95bb7eee5648afac6f017dde95c" ResourceName="MetadataAssemblys" />
       <Asset Guid="24ca310f92a6796408f1db7647ec4e55" ResourceName="UISprites" />
@@ -45,6 +48,7 @@
       <Asset Guid="4362289f4a81637419f9f9e96b92fd41" ResourceName="MetadataAssemblys" />
       <Asset Guid="4473d81b14ddb0143addf0e6050d8491" ResourceName="Scenes" />
       <Asset Guid="44c8db52241385c45bbb14a1718f17bf" ResourceName="Configs" />
+      <Asset Guid="5113ecef27c5af847b9f0fdbfbed9fad" ResourceName="LubanTables" />
       <Asset Guid="56b8df63bbad60749a69e38bc687fadf" ResourceName="UISprites" />
       <Asset Guid="5c2d5236ed7097a4c96f540bbb3f095b" ResourceName="MetadataAssemblys" />
       <Asset Guid="5dcd89912e222bf4c87f76db4044bc5e" ResourceName="Localization/Dictionaries" ResourceVariant="ko-kr" />
@@ -52,10 +56,12 @@
       <Asset Guid="6072fae2206037943a79abb529628fc4" ResourceName="MetadataAssemblys" />
       <Asset Guid="62af9e5c8f39cfa49af9e10ccf42f1da" ResourceName="UISprites" />
       <Asset Guid="6cbc2c323b77f804fb958fa4eca33998" ResourceName="UISprites" />
+      <Asset Guid="7788fbfd23f3fb7429b93e165226ab56" ResourceName="LubanTables" />
       <Asset Guid="77cbb7c5404c10242ab59953e0746314" ResourceName="Fonts" />
       <Asset Guid="7acd0c76cd8d42b46bdae60c09ccefa2" ResourceName="Configs" />
       <Asset Guid="7f5aee8da226edf4991598327cb32ce0" ResourceName="UISprites" />
       <Asset Guid="7fd11dc5d29076d469d414dec2818f11" ResourceName="Configs" />
+      <Asset Guid="829d3d87002a1bb488101cd00f88fd89" ResourceName="LubanTables" />
       <Asset Guid="85b6ed07b767c854a90beac56c845a66" ResourceName="UIItems" />
       <Asset Guid="86f2cb23c6e0c794fa59f3670716435f" ResourceName="MetadataAssemblys" />
       <Asset Guid="8e114ded6a865324588170636872943c" ResourceName="DataTables" />
@@ -71,12 +77,17 @@
       <Asset Guid="a71f8bb1b1b2c51438e2bafc884cb02c" ResourceName="DataTables" />
       <Asset Guid="a8c07bbe04fdaf04b80e27f651a8edd6" ResourceName="UISprites" />
       <Asset Guid="ab45c3f613f388d43bbf43ec05eb92e2" ResourceName="UISprites" />
+      <Asset Guid="ad83d9ba5b93e2d46820b9bef64da3dd" ResourceName="LubanTables" />
       <Asset Guid="b031b4f2980561542a7f7ba41391edc3" ResourceName="Scenes" />
+      <Asset Guid="bf32161b986afae488276c83b72f0c6a" ResourceName="LubanTables" />
+      <Asset Guid="c05d9bc63f47b674081f9f824affcf18" ResourceName="LubanTables" />
       <Asset Guid="c7d1e11dd37634b48a9dd4012b8e4306" ResourceName="UISounds" />
       <Asset Guid="cadd0764941c8b646ae79b51d0ea8285" ResourceName="UISprites" />
+      <Asset Guid="cbc4d46d19f337043acccfbbd5866ac6" ResourceName="LubanTables" />
       <Asset Guid="cfe53cf384344bd47a8680f8c5f97a7b" ResourceName="DataTables" />
       <Asset Guid="d730f17a120ddb1449843d3fdd3e3a5a" ResourceName="Textures" />
       <Asset Guid="db58965402f12ed47b4dad61a9e48c9d" ResourceName="UISprites" />
+      <Asset Guid="dea2e632a33d31b49b5d69f48a28baf9" ResourceName="LubanTables" />
       <Asset Guid="e5ca26c53b6ab8a46b52817008d7c7fa" ResourceName="UISprites" />
       <Asset Guid="e82837c9099f69a48b48fc44eb8d119d" ResourceName="UISprites" />
       <Asset Guid="e830964cdb85ff3429bca484c16bab44" ResourceName="UISounds" />
@@ -84,6 +95,8 @@
       <Asset Guid="f2f4df0b7211e4c42a5638273525d8ee" ResourceName="UISprites" />
       <Asset Guid="f2f97a713beae744181ba934f9c4113a" ResourceName="DataTables" />
       <Asset Guid="f438a72a91e1c3c4a9ced40888ffec96" ResourceName="UISprites" />
+      <Asset Guid="f809cf1f79791cb4cb0a058cf7cd373d" ResourceName="LubanTables" />
+      <Asset Guid="f8cd63994b8b6364c8ce53de33a9cb7c" ResourceName="LubanTables" />
       <Asset Guid="fdb5edd099d06b045af609ba3172400a" ResourceName="DataTables" />
       <Asset Guid="fedf4b5f3b387fe468eedf833d1b6711" ResourceName="Meshes" />
     </Assets>

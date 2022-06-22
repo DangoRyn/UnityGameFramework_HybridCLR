@@ -17,6 +17,7 @@ namespace Game.Hotfix
             procedureManager.Initialize(fsmManager, new ProcedureBase[]
             {
                 new ProcedureHotfixLaunch(),
+                new ProcedurePreload(),
                 new ProcedureMain(),
                 new ProcedureMenu(),
                 new ProcedureChangeScene(),

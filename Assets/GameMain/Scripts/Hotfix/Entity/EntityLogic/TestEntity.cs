@@ -2,14 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using Game;
 
-public class TestEntityData : EntityData
+namespace Game.Hotfix
 {
-    public TestEntityData(int entityId, int typeId) : base(entityId, typeId)
+    public class TestEntityData : EntityData
     {
+        public TestEntityData(int entityId, int typeId) : base(entityId, typeId)
+        {
+        }
     }
-}
 
-public class TestEntity : Entity
-{
+    public class TestEntity : Entity
+    {
     
+    }
 }

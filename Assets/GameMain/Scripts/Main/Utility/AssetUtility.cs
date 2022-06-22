@@ -11,6 +11,11 @@ namespace Game
 {
     public static class AssetUtility
     {
+        public static string GetAssetRootDirectory(string directory)
+        {
+            return Utility.Text.Format("Assets/GameMain/{0}", directory);
+        }
+
         public static string GetConfigAsset(string assetName, bool fromBytes)
         {
             return Utility.Text.Format("Assets/GameMain/Configs/{0}.{1}", assetName, fromBytes ? "bytes" : "txt");
@@ -19,6 +24,12 @@ namespace Game
         public static string GetDataTableAsset(string assetName, bool fromBytes)
         {
             return Utility.Text.Format("Assets/GameMain/DataTables/{0}.{1}", assetName, fromBytes ? "bytes" : "txt");
+        }
+        
+        public static string GetLubanTableAsset(string assetName, bool fromBytes)
+        {
+            string typeName = fromBytes ? "bytes" : "json";
+            return Utility.Text.Format("Assets/GameMain/LubanTables/{0}/{1}.{2}", typeName,assetName, typeName);
         }
 
         public static string GetDictionaryAsset(string assetName, bool fromBytes)

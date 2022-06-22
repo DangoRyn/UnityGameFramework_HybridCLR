@@ -5,6 +5,10 @@
 // Feedback: mailto:ellan@gameframework.cn
 //------------------------------------------------------------
 
+using GameFramework.Fsm;
+using GameFramework.Procedure;
+using UnityEngine;
+
 namespace Game
 {
     public abstract class ProcedureBase : GameFramework.Procedure.ProcedureBase
@@ -15,5 +19,11 @@ namespace Game
         {
             get;
         }
+
+        // protected override void OnEnter(IFsm<IProcedureManager> procedureOwner)
+        // {
+        //     base.OnEnter(procedureOwner);
+        //     Debug.Log(this);
+        // }
     }
 }

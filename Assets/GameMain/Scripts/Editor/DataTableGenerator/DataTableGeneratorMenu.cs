@@ -5,6 +5,7 @@
 // Feedback: mailto:ellan@gameframework.cn
 //------------------------------------------------------------
 
+using Game.Hotfix;
 using GameFramework;
 using UnityEditor;
 using UnityEngine;

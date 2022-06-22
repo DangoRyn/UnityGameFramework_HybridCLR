@@ -1,0 +1,11 @@
+[
+  {
+    "Id": 10000,
+    "AssetName": "weapon_player",
+    "Priority": 0,
+    "Loop": false,
+    "Volume": 1,
+    "SpatialBlend": 0,
+    "MaxDistance": 100
+  }
+]

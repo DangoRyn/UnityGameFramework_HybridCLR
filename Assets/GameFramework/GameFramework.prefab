@@ -646,14 +646,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AvailableProcedureTypeNames:
-  - Game.ProcedureCodeInit
+  - Game.ProcedureCheckResources
+  - Game.ProcedureCheckVersion
+  - Game.ProcedureInitResources
   - Game.ProcedureLaunch
-  - Game.ProcedureResourcesCheck
-  - Game.ProcedureResourcesInit
-  - Game.ProcedureResourcesUpdate
-  - Game.ProcedureResourcesVerify
-  - Game.ProcedureVersionCheck
-  - Game.ProcedureVersionUpdate
+  - Game.ProcedureLoadHotfix
+  - Game.ProcedureSplash
+  - Game.ProcedureUpdateResources
+  - Game.ProcedureUpdateVersion
+  - Game.ProcedureVerifyResources
   m_EntranceProcedureTypeName: Game.ProcedureLaunch
 --- !u!1 &140694
 GameObject:
@@ -866,7 +867,7 @@ MonoBehaviour:
   m_InstanceRoot: {fileID: 1576232203}
   m_UIFormHelperTypeName: UnityGameFramework.Runtime.DefaultUIFormHelper
   m_CustomUIFormHelper: {fileID: 0}
-  m_UIGroupHelperTypeName: Game.UGuiGroupHelper
+  m_UIGroupHelperTypeName: UnityGameFramework.Runtime.DefaultUIGroupHelper
   m_CustomUIGroupHelper: {fileID: 0}
   m_UIGroups:
   - m_Name: Default

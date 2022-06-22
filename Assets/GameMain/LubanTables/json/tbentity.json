@@ -1,0 +1,12 @@
+[
+  {
+    "Id": 10000,
+    "EntityType": 1,
+    "AssetName": "EmptyEntity"
+  },
+  {
+    "Id": 10001,
+    "EntityType": 2,
+    "AssetName": "EmptyEntity"
+  }
+]

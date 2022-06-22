@@ -44,16 +44,16 @@ namespace Game
 
             if (Application.internetReachability == NetworkReachability.ReachableViaCarrierDataNetwork)
             {
-                GameEntry.UI.OpenDialog(new DialogParams
-                {
-                    Mode = 2,
-                    Title = GameEntry.Localization.GetString("UpdateResourceViaCarrierDataNetwork.Title"),
-                    Message = GameEntry.Localization.GetString("UpdateResourceViaCarrierDataNetwork.Message"),
-                    ConfirmText = GameEntry.Localization.GetString("UpdateResourceViaCarrierDataNetwork.UpdateButton"),
-                    OnClickConfirm = StartUpdateResources,
-                    CancelText = GameEntry.Localization.GetString("UpdateResourceViaCarrierDataNetwork.QuitButton"),
-                    OnClickCancel = delegate (object userData) { UnityGameFramework.Runtime.GameEntry.Shutdown(ShutdownType.Quit); },
-                });
+                // GameEntry.UI.OpenDialog(new DialogParams
+                // {
+                //     Mode = 2,
+                //     Title = GameEntry.Localization.GetString("UpdateResourceViaCarrierDataNetwork.Title"),
+                //     Message = GameEntry.Localization.GetString("UpdateResourceViaCarrierDataNetwork.Message"),
+                //     ConfirmText = GameEntry.Localization.GetString("UpdateResourceViaCarrierDataNetwork.UpdateButton"),
+                //     OnClickConfirm = StartUpdateResources,
+                //     CancelText = GameEntry.Localization.GetString("UpdateResourceViaCarrierDataNetwork.QuitButton"),
+                //     OnClickCancel = delegate (object userData) { UnityGameFramework.Runtime.GameEntry.Shutdown(ShutdownType.Quit); },
+                // });
 
                 return;
             }
@@ -86,7 +86,7 @@ namespace Game
                 return;
             }
 
-            ChangeState<ProcedurePreload>(procedureOwner);
+            ChangeState<ProcedureLoadHotfix>(procedureOwner);
         }
 
         private void StartUpdateResources(object userData)

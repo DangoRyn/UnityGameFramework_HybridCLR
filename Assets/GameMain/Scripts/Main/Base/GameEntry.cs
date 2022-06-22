@@ -112,6 +112,11 @@ namespace Game
         /// 构建数据组件。
         /// </summary>
         public static BuiltinDataComponent BuiltinData { get; private set; }
+        
+        /// <summary>
+        /// 获取鲁班数据表组件。
+        /// </summary>
+        public static LubanTableComponent LubanTable { get; private set; }
 
         private void Start()
         {
@@ -136,6 +141,7 @@ namespace Game
             UI = UnityGameFramework.Runtime.GameEntry.GetComponent<UIComponent>();
             WebRequest = UnityGameFramework.Runtime.GameEntry.GetComponent<WebRequestComponent>();
             BuiltinData = UnityGameFramework.Runtime.GameEntry.GetComponent<BuiltinDataComponent>();
+            LubanTable = UnityGameFramework.Runtime.GameEntry.GetComponent<LubanTableComponent>();
         }
     }
 }
