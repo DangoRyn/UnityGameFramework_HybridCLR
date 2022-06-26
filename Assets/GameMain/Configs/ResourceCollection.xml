@@ -6,15 +6,15 @@
       <Resource Name="DataTables" FileSystem="GameData" LoadType="0" Packed="True" ResourceGroups="Base" />
       <Resource Name="Entities" FileSystem="Resources" LoadType="0" Packed="True" />
       <Resource Name="Fonts" FileSystem="UI" LoadType="0" Packed="True" ResourceGroups="Base" />
-      <Resource Name="Hotfix" FileSystem="Hotfix" LoadType="0" Packed="True" />
+      <Resource Name="Hotfix" FileSystem="HotfixCode" LoadType="0" Packed="True" />
       <Resource Name="Localization/Dictionaries" Variant="en-us" FileSystem="UI" LoadType="0" Packed="True" ResourceGroups="Base" />
       <Resource Name="Localization/Dictionaries" Variant="ko-kr" FileSystem="UI" LoadType="0" Packed="True" ResourceGroups="Base" />
       <Resource Name="Localization/Dictionaries" Variant="zh-cn" FileSystem="UI" LoadType="0" Packed="True" ResourceGroups="Base" />
       <Resource Name="Localization/Dictionaries" Variant="zh-tw" FileSystem="UI" LoadType="0" Packed="True" ResourceGroups="Base" />
-      <Resource Name="LubanTables" FileSystem="LubanTables" LoadType="0" Packed="True" ResourceGroups="Base" />
+      <Resource Name="LubanTables" FileSystem="GameData" LoadType="0" Packed="True" ResourceGroups="Base" />
       <Resource Name="Materials" FileSystem="Resources" LoadType="0" Packed="True" />
       <Resource Name="Meshes" FileSystem="Resources" LoadType="0" Packed="True" />
-      <Resource Name="MetadataAssemblys" FileSystem="MetadataAssemblys" LoadType="0" Packed="True" />
+      <Resource Name="MetadataAssemblys" FileSystem="HotfixCode" LoadType="0" Packed="True" />
       <Resource Name="Music" FileSystem="Resources" LoadType="0" Packed="True" />
       <Resource Name="Scenes" FileSystem="Resources" LoadType="0" Packed="True" />
       <Resource Name="Sounds" FileSystem="Resources" LoadType="0" Packed="True" />

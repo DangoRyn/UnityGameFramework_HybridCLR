@@ -196,7 +196,7 @@ MonoBehaviour:
   - valid: 1
     name: Hotfix
     variant: 
-    fileSystem: Hotfix
+    fileSystem: HotfixCode
     groups: 
     assetsDirectoryPath: Assets/GameMain/HotFix
     loadType: 0
@@ -206,7 +206,7 @@ MonoBehaviour:
   - valid: 1
     name: MetadataAssemblys
     variant: 
-    fileSystem: MetadataAssemblys
+    fileSystem: HotfixCode
     groups: 
     assetsDirectoryPath: Assets/GameMain/MetadataAssemblys
     loadType: 0
@@ -216,7 +216,7 @@ MonoBehaviour:
   - valid: 1
     name: LubanTables
     variant: 
-    fileSystem: LubanTables
+    fileSystem: GameData
     groups: Base
     assetsDirectoryPath: Assets/GameMain/LubanTables
     loadType: 0
