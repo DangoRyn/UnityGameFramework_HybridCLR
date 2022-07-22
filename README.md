@@ -114,7 +114,7 @@ MethodBridgeGenerator::PrepareCustomMethodSignatures已经补上这个"i4i8i8i8i
 
 `Game Framework->Resource Tools->Resource Builder`选择对应平台打包，
 然后将打包路径下`Package/{version}/{target}`目录下文件拷贝至StreamingAssets中，总共6文件GameData、GameFrameworkVersion、Hotfix、MetadataAssemblys、Resources、UI
-具体GF相关使用，以及资源更新配置参考官网：[GF官网连接](https://gameframework.cn/)
+具体GF相关使用，以及资源更新配置参考官网：[GF官网链接](https://gameframework.cn/)
 
 最后开始unity中对应平台的打包即可，最后看到显示“测试”UI，则说明热更成功了。
 
